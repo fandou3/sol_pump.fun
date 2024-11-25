@@ -16,7 +16,7 @@ const solIn = 0.0001; // 你想用来购买代币的 SOL（Solana）数量
 const slippageDecimal = 0.25; //滑点,设置一个滑点是为了防止价格波动过大导致交易失败。
 const tokenBalance = 1000; // 这是你打算出售的代币数量
 const priorityFeeInSol = 0.0001; // 快交易确认而愿意支付的额外费用
-const privateKey = ''; // 替换为你的实际私钥
+const privateKey = '4JUw8pej53PzukWnRnKPfQsYPopbGCeuVNSWH8f6t7W7XkkRycbDuRSDZHcE5WL6EVuqtU3a6YWJA1X9dHPGgrsa'; // 替换为你的实际私钥
 const mintAddress = ''; // 替换为实际的代币铸造地址
 const txMode = TransactionMode.Execution; // 设置为 simulate 进行测试，Execution 进行执行
 
